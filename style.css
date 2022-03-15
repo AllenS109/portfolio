@@ -1,0 +1,100 @@
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p {
+    font-family:  'Times New Roman', Arial;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: Arial, 'Times New Roman';
+    color: #654321;
+}
+
+h1, .tiny { /* adds a light background color to the page. */
+    background: #fdfce5;
+    margin:auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    height: 65px;
+}
+
+body {
+    text-align: center;
+    background-color: cornsilk;
+}
+
+ul, ol {
+    nav-index: auto;
+    display: inline-block;
+    text-align: left;
+}
+
+button { /* Adds buttons to the navigation bar. */
+    color: cornsilk;
+    background-color: #654321;
+    border: black;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.home, .about, .contact, .social{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.paragraph {
+    width: 350px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.list {
+    margin: auto;
+}
+
+hr { /* Changes the themantic break color and shortens the lines. */
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #654321;
+    border:solid #654321 .05px;
+    height: 1px;
+}
+
+.picture { /* Adds a solid brown border around the image. */
+    border: solid #654321;
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+
+.tiny {
+    font-size: 12px;
+}
+
+footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+}
+
+
+/* These will change the color of the links when the user interacts with them. */
+li > a:link     {color: #654321;}
+li > a:visited  {color: #654321;}
+li > a:hover    {color: black;}
+li > a:active   {color: black;}
