@@ -1,5 +1,6 @@
 h1 {
     font-size: 50px;
+    height: 65px;
 }
 
 h2 {
@@ -25,7 +26,6 @@ h1, .tiny { /* adds a light background color to the page. */
     margin:auto;
     padding-top: 10px;
     padding-bottom: 5px;
-    height: 65px;
 }
 
 body {
@@ -39,7 +39,7 @@ ul, ol {
     text-align: left;
 }
 
-button { /* Adds buttons to the navigation bar. */
+.button { /* Adds buttons to the navigation bar. */
     color: cornsilk;
     background-color: #654321;
     border: black;
@@ -50,7 +50,7 @@ button { /* Adds buttons to the navigation bar. */
     font-size: 16px;
 }
 
-.home, .about, .contact, .social{
+.home, .about, .contact {
     text-decoration: none;
     color: blanchedalmond;
 }
@@ -85,7 +85,7 @@ hr { /* Changes the themantic break color and shortens the lines. */
 }
 
 footer {
-    position: fixed;
+    position:static;
     left: 0px;
     bottom: 0px;
     height: 30px;
