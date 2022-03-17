@@ -85,7 +85,7 @@ hr { /* Changes the themantic break color and shortens the lines. */
 }
 
 footer {
-    position:static;
+    position:absolute;
     left: 0px;
     bottom: 0px;
     height: 30px;
